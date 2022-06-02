@@ -6,7 +6,7 @@ The better implementation of is-even™
 
 # Usage
 ```js
-const isEven = require('better-is-even');
+const isEven = require('@tnk-rin/better-is-even');
 
 isEven(16);
 // > true
