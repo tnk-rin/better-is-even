@@ -1,5 +1,5 @@
 {
-  "name": "better-is-even",
+  "name": "@tnk-rin/better-is-even",
   "version": "1.0.0",
   "description": "The better implementation of is-even™",
   "main": "index.js",
@@ -9,10 +9,18 @@
   "keywords": [
     "is-even"
   ],
-  "repository": "tnk-rin/better-is-even",
-  "author": "Thomas W. (https://github.com/tnk-rin",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tnk-rin/better-is-even.git"
+  },
+  "author": "Thomas W.",
   "license": "ISC",
   "dependencies": {
     "mocha": "^10.0.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/tnk-rin/better-is-even/issues"
+  },
+  "homepage": "https://github.com/tnk-rin/better-is-even#readme",
+  "devDependencies": {}
 }
