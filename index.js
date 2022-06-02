@@ -10,9 +10,10 @@ module.exports = function isEven(n) {
 			return !n;
 		
 		case "number":
-			return (n % 2 == 0);
+			return (Math.trunc(n) % 2 == 0);
 
 		case "string":
+			n = n.replace(/[^\d]/g, ' ');
 			const strs = n.split(' ');
 			let nums = [];
 			strs.forEach(s => {

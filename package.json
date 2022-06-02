@@ -4,12 +4,15 @@
   "description": "The better implementation of is-even™",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "keywords": [
     "is-even"
   ],
   "repository": "tnk-rin/better-is-even",
   "author": "Thomas W. (https://github.com/tnk-rin",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^10.0.0"
+  }
 }
