@@ -2,7 +2,7 @@
 The better implementation of is-even™
 
 # Install
-WIP: `npm install better-is-even`
+`npm install better-is-even`
 
 # Usage
 ```js
