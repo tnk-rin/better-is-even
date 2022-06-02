@@ -2,7 +2,7 @@
 The better implementation of is-even™
 
 # Install
-`npm install better-is-even`
+`npm install @tnk-rin/better-is-even`
 
 # Usage
 ```js

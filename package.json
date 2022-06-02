@@ -1,5 +1,5 @@
 {
-  "name": "better-is-even",
+  "name": "@tnk-rin/better-is-even",
   "version": "1.0.0",
   "description": "The better implementation of is-even™",
   "main": "index.js",
