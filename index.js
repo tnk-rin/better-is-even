@@ -16,7 +16,7 @@ module.exports = function isEven(n) {
 			n = n.replace(/[^\d]/g, ' ');
 			const strs = n.split(' ');
 			let nums = [];
-			strs.forEach(s => {
+			strs.filter(f => f != '').forEach(s => {
 				let num = isEven(parseInt(s));
 				if(num != NaN) nums.push(num);
 			});
