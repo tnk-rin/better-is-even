@@ -1,0 +1,15 @@
+{
+  "name": "better-is-even",
+  "version": "1.0.0",
+  "description": "The better implementation of is-even™",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "is-even"
+  ],
+  "repository": "tnk-rin/better-is-even",
+  "author": "Thomas W. (https://github.com/tnk-rin",
+  "license": "ISC"
+}
