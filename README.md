@@ -1,10 +1,13 @@
-# better-is-even
+# better-is-even </br> [![NPM Version](https://img.shields.io/npm/v/@tnk-rin/better-is-even.svg?style=flat)](https://www.npmjs.com/package/@tnk-rin/better-is-even) [![NPM monthly downloads](https://img.shields.io/npm/dm/@tnk-rin/better-is-even.svg?style=flat)](https://www.npmjs.com/package/@tnk-rin/better-is-even) [![NPM Total Downloads](https://img.shields.io/npm/dt/@tnk-rin/better-is-even.svg?style=flat)](https://www.npmjs.com/package/@tnk-rin/better-is-even)
+
 The better implementation of is-even™
 
 # Install
+
 `npm install @tnk-rin/better-is-even`
 
 # Usage
+
 ```js
 const isEven = require('@tnk-rin/better-is-even');
 
