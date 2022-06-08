@@ -4,7 +4,8 @@
 
 module.exports = function isEven(n) {
 	const nType = typeof n;
-	
+	let nums = [];
+
 	switch (nType) {
 		case "boolean":
 			return !n;
@@ -15,7 +16,6 @@ module.exports = function isEven(n) {
 		case "string":
 			n = n.replace(/[^\d]/g, ' ');
 			const strs = n.split(' ');
-			let nums = [];
 			strs.filter(f => f != '').forEach(s => {
 				let num = isEven(parseInt(s));
 				if(num != NaN) nums.push(num);
@@ -23,6 +23,12 @@ module.exports = function isEven(n) {
 			return nums;
 
 		default:
+			if(Array.isArray(n)) {
+				n.forEach(m => {
+					nums.push(isEven(m));
+				});
+				return nums;
+			}
 			return false;
 	}
 };

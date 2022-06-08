@@ -1,6 +1,6 @@
 {
   "name": "@tnk-rin/better-is-even",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "The better implementation of is-even™",
   "main": "index.js",
   "scripts": {

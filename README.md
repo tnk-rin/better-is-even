@@ -19,4 +19,6 @@ isEven(2);
 // > true
 isEven(false);
 // > true
+isEven([12, 15, 3, 26, 20]);
+// > [true, false, false, true, true]
 ```
